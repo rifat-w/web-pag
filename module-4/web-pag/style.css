@@ -5,13 +5,14 @@ body{
 .aqua{
     color: aqua;
 }
-section {
+.flexibel-containe {
     display: flex;
     margin-bottom: 200px;  
 }
 .harf-with{
     width: 50%;
     padding-left: 2%;
+  
 }
 .harf-with img{
     width: 80%;
@@ -32,4 +33,19 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expreience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat ;
+}
+.expreience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+}
+h2{
+    font-size: 40px;
 }
