@@ -7,6 +7,7 @@ body{
 }
 section {
     display: flex;
+    margin-bottom: 200px;  
 }
 .harf-with{
     width: 50%;
@@ -26,4 +27,9 @@ section {
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-p{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
