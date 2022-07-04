@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.aqua{
+    color: aqua;
+}
+section {
+    display: flex;
+}
+.harf-with{
+    width: 50%;
+    padding-left: 2%;
+}
+.harf-with img{
+    width: 80%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 60px 40x;
+    color: lightgray;
+    font-weight: 900;
+    border-radius: 2px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
